@@ -17,4 +17,4 @@ use App\Http\Controllers\TestController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/test/{slug}', [TestController::class, 'show']);
+Route::get('/test', [TestController::class, 'index']);

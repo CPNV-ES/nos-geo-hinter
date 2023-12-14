@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Language;
 use App\Models\Test;
 
 class TestController extends Controller {
-    public function show($slug) {
+    public function index() {
+
+        dd(Language::all()[0]->characters);
+
         return view('test', [
             'test' => Test::all()
         ]);
