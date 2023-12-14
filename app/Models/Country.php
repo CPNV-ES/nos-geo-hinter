@@ -11,4 +11,9 @@ class Country extends Model
 
     protected $connection = 'mongodb';
     protected $collection = 'countries';
+
+    public function flag()
+    {
+        return $this->embedsOne(Flag::class);
+    }
 }
