@@ -6,8 +6,10 @@ use MongoDB\Laravel\Eloquent\Model;
 
 class Language extends Model
 {
+    protected $connection = 'mongodb';
+
     public function characters()
     {
-        return $this->hasMany(Character::class);
+        return $this->embedsMany(Character::class);
     }
 }
