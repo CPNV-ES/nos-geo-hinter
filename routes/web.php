@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Country;
+use App\Http\Controllers\ComponentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test/component', function () {
-    return view('components/test');
-});
+Route::get('/test/components/color', [ComponentController::class, 'color']);
+Route::get('/test/components/flag', [ComponentController::class, 'flag']);
