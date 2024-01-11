@@ -28,4 +28,10 @@ class ComponentController extends Controller
         return view('test.components.flag', ['flag' => $this->country->flag]);
     }
 
+    public function countryHeader(): View
+    {
+        return view('test.components.country-header', ['country' => $this->country]);
+    }
+
+
 }
