@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use MongoDB\Laravel\Eloquent\Model;
 use MongoDB\Laravel\Relations\EmbedsOne;
@@ -35,7 +36,6 @@ class Country extends Model
 
     public function languages()
     {
-
         $result = DB::collection('countries')->raw(function ($collection) {
             return $collection->aggregate([
                 [
@@ -55,19 +55,6 @@ class Country extends Model
 
         $out = [];
 
-        function toArray(&$object)
-        {
-            if (is_object($object) && in_array(get_class($object), [BSONDocument::class, BSONArray::class])) {
-                $object = $object->getArrayCopy();
-            }
-            if (is_array($object)) {
-                foreach ($object as &$item) {
-                    toArray($item);
-                }
-            }
-            return $object;
-        }
-
         foreach ($result as $document) {
             $out[] = toArray($document);
         }
@@ -76,4 +63,45 @@ class Country extends Model
 
         return $test->langs;
     }
+
+    public static function groupByContinents(): Collection
+    {
+        $result = DB::collection('countries')->raw(function ($collection) {
+            return $collection->aggregate([
+                [
+                    '$group' => [
+                        '_id' => '$continent',
+                        'countries' => ['$push' => '$$ROOT'],
+                    ]
+                ]
+            ]);
+        });
+
+        $out = collect();
+
+        foreach ($result->toArray() as $document) {
+            $out->add(toArray($document));
+        }
+
+        $r = collect();
+
+        foreach ($out as $item) {
+            $r->put($item['_id'], self::hydrate($item['countries']));
+        }
+
+        return $r;
+    }
+}
+
+function toArray(&$object)
+{
+    if (is_object($object) && in_array(get_class($object), [BSONDocument::class, BSONArray::class])) {
+        $object = $object->getArrayCopy();
+    }
+    if (is_array($object)) {
+        foreach ($object as &$item) {
+            toArray($item);
+        }
+    }
+    return $object;
 }
