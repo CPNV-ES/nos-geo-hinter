@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Color;
 use App\Models\Country;
-use App\Models\Flag;
 use Illuminate\Contracts\View\View;
 
 class ComponentController extends Controller
@@ -26,6 +25,11 @@ class ComponentController extends Controller
     public function flag(): View
     {
         return view('test.components.flag', ['flag' => $this->country->flag]);
+    }
+
+    public function language(): View
+    {
+        return view('test.components.language', ['language' => $this->country->languages[0]]);
     }
 
 }
