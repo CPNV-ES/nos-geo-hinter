@@ -29,7 +29,7 @@ class ComponentController extends Controller
 
     public function language(): View
     {
-        return view('test.components.language', ['language' => $this->country->languages[0]]);
+        return view('test.components.language', ['language' => $this->country->languages()[0]]);
     }
 
 }
