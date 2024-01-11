@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ComponentController;
 use Illuminate\Support\Facades\Route;
-use App\Models\Country;
+use App\Http\Controllers\CountryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +18,8 @@ use App\Models\Country;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get("/country/{country}", function (Country $country) {
-    return $country;
-})->name("country.show");
-
+Route::resources([
+    'countries' => CountryController::class
+]);
 Route::get('/test/components/color', [ComponentController::class, 'color']);
 Route::get('/test/components/flag', [ComponentController::class, 'flag']);
