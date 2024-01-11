@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get("/country/{country}", function (Country $country) {
+    return $country;
+})->name("country.show");
