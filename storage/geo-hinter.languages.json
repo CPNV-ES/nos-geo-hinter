@@ -1,0 +1,841 @@
+[{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7324"
+  },
+  "name": "Chinois mandarin",
+  "characters": [
+    {
+      "note": "Uses Chinese characters (Hanzi), which are logograms."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7325"
+  },
+  "name": "Espagnol",
+  "characters": [
+    {
+      "unicode": "00F1",
+      "char": "ñ"
+    },
+    {
+      "unicode": "00E1",
+      "char": "á"
+    },
+    {
+      "unicode": "00E9",
+      "char": "é"
+    },
+    {
+      "unicode": "00ED",
+      "char": "í"
+    },
+    {
+      "unicode": "00F3",
+      "char": "ó"
+    },
+    {
+      "unicode": "00FA",
+      "char": "ú"
+    },
+    {
+      "unicode": "00FC",
+      "char": "ü"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7326"
+  },
+  "name": "Anglais",
+  "characters": [
+    {
+      "note": "Primarily uses the basic Latin alphabet without diacritics."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7327"
+  },
+  "name": "Indie",
+  "characters": [
+    {
+      "unicode": "0905",
+      "char": "अ"
+    },
+    {
+      "unicode": "0906",
+      "char": "आ"
+    },
+    {
+      "unicode": "0907",
+      "char": "इ"
+    },
+    {
+      "unicode": "0908",
+      "char": "ई"
+    },
+    {
+      "unicode": "0909",
+      "char": "उ"
+    },
+    {
+      "unicode": "090A",
+      "char": "ऊ"
+    },
+    {
+      "unicode": "090B",
+      "char": "ऋ"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7328"
+  },
+  "name": "Bengali",
+  "characters": [
+    {
+      "unicode": "0985",
+      "char": "অ"
+    },
+    {
+      "unicode": "0986",
+      "char": "আ"
+    },
+    {
+      "unicode": "0987",
+      "char": "ই"
+    },
+    {
+      "unicode": "0988",
+      "char": "ঈ"
+    },
+    {
+      "unicode": "0989",
+      "char": "উ"
+    },
+    {
+      "unicode": "098A",
+      "char": "ঊ"
+    },
+    {
+      "unicode": "098B",
+      "char": "ঋ"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7329"
+  },
+  "name": "Portugais",
+  "characters": [
+    {
+      "unicode": "00E3",
+      "char": "ã"
+    },
+    {
+      "unicode": "00E7",
+      "char": "ç"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff732a"
+  },
+  "name": "Russe",
+  "characters": [
+    {
+      "unicode": "0416",
+      "char": "Ж"
+    },
+    {
+      "unicode": "0429",
+      "char": "Щ"
+    },
+    {
+      "unicode": "0401",
+      "char": "Ё"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff732b"
+  },
+  "name": "Japonais",
+  "characters": [
+    {
+      "note": "Uses multiple scripts (Kanji, Hiragana, Katakana)."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff732c"
+  },
+  "name": "Punjabi (Ouest)",
+  "characters": [
+    {
+      "unicode": "0A05",
+      "char": "ਅ"
+    },
+    {
+      "unicode": "0A06",
+      "char": "ਆ"
+    },
+    {
+      "unicode": "0A07",
+      "char": "ਇ"
+    },
+    {
+      "unicode": "0A08",
+      "char": "ਈ"
+    },
+    {
+      "unicode": "0A09",
+      "char": "ਉ"
+    },
+    {
+      "unicode": "0A0A",
+      "char": "ਊ"
+    },
+    {
+      "unicode": "0A0F",
+      "char": "ਏ"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff732d"
+  },
+  "name": "Allemand",
+  "characters": [
+    {
+      "unicode": "00E4",
+      "char": "ä"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    },
+    {
+      "unicode": "00FC",
+      "char": "ü"
+    },
+    {
+      "unicode": "00DF",
+      "char": "ß"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff732e"
+  },
+  "name": "Javanais",
+  "characters": [
+    {
+      "note": "Uses a script called Hanacaraka or Javanese script."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff732f"
+  },
+  "name": "Coréen",
+  "characters": [
+    {
+      "unicode": "AC00",
+      "char": "가"
+    },
+    {
+      "unicode": "B098",
+      "char": "나"
+    },
+    {
+      "unicode": "B2F9",
+      "char": "다"
+    },
+    {
+      "unicode": "B77C",
+      "char": "라"
+    },
+    {
+      "unicode": "B9C8",
+      "char": "마"
+    },
+    {
+      "unicode": "BC14",
+      "char": "바"
+    },
+    {
+      "unicode": "C0AC",
+      "char": "사"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7330"
+  },
+  "name": "Français",
+  "characters": [
+    {
+      "unicode": "00E9",
+      "char": "é"
+    },
+    {
+      "unicode": "00E8",
+      "char": "è"
+    },
+    {
+      "unicode": "00E0",
+      "char": "à"
+    },
+    {
+      "unicode": "00F9",
+      "char": "ù"
+    },
+    {
+      "unicode": "00F4",
+      "char": "ô"
+    },
+    {
+      "unicode": "00EA",
+      "char": "ê"
+    },
+    {
+      "unicode": "00E7",
+      "char": "ç"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7331"
+  },
+  "name": "Turque",
+  "characters": [
+    {
+      "unicode": "015F",
+      "char": "ş"
+    },
+    {
+      "unicode": "011F",
+      "char": "ğ"
+    },
+    {
+      "unicode": "0131",
+      "char": "ı"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    },
+    {
+      "unicode": "00FC",
+      "char": "ü"
+    },
+    {
+      "unicode": "00E7",
+      "char": "ç"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7332"
+  },
+  "name": "Marathi",
+  "characters": []
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7333"
+  },
+  "name": "Telugu",
+  "characters": [
+    {
+      "unicode": "0C05",
+      "char": "అ"
+    },
+    {
+      "unicode": "0C06",
+      "char": "ఆ"
+    },
+    {
+      "unicode": "0C07",
+      "char": "ఇ"
+    },
+    {
+      "unicode": "0C08",
+      "char": "ఈ"
+    },
+    {
+      "unicode": "0C09",
+      "char": "ఉ"
+    },
+    {
+      "unicode": "0C0A",
+      "char": "ఊ"
+    },
+    {
+      "unicode": "0C0B",
+      "char": "ఋ"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7334"
+  },
+  "name": "Tamul",
+  "characters": [
+    {
+      "unicode": "0B85",
+      "char": "அ"
+    },
+    {
+      "unicode": "0B86",
+      "char": "ஆ"
+    },
+    {
+      "unicode": "0B87",
+      "char": "இ"
+    },
+    {
+      "unicode": "0B88",
+      "char": "ஈ"
+    },
+    {
+      "unicode": "0B89",
+      "char": "உ"
+    },
+    {
+      "unicode": "0B8A",
+      "char": "ஊ"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7335"
+  },
+  "name": "Wu Chinois",
+  "characters": [
+    {
+      "note": "Uses Chinese characters, similar to Mandarin."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7337"
+  },
+  "name": "Coréen",
+  "characters": [
+    {
+      "unicode": "AC00",
+      "char": "가"
+    },
+    {
+      "unicode": "B098",
+      "char": "나"
+    },
+    {
+      "unicode": "B2F9",
+      "char": "다"
+    },
+    {
+      "unicode": "B77C",
+      "char": "라"
+    },
+    {
+      "unicode": "B9C8",
+      "char": "마"
+    },
+    {
+      "unicode": "BC14",
+      "char": "바"
+    },
+    {
+      "unicode": "C0AC",
+      "char": "사"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7338"
+  },
+  "name": "Vietnamien",
+  "characters": [
+    {
+      "unicode": "0103",
+      "char": "ă"
+    },
+    {
+      "unicode": "00E2",
+      "char": "â"
+    },
+    {
+      "unicode": "0111",
+      "char": "đ"
+    },
+    {
+      "unicode": "00EA",
+      "char": "ê"
+    },
+    {
+      "unicode": "00F4",
+      "char": "ô"
+    },
+    {
+      "unicode": "01A1",
+      "char": "ơ"
+    },
+    {
+      "unicode": "01B0",
+      "char": "ư"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff7339"
+  },
+  "name": "Yue Chinese (Cantonais)",
+  "characters": [
+    {
+      "note": "Uses Chinese characters, with some unique to Cantonese."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659ee72d4f9fd9ccf3ff733a"
+  },
+  "name": "Italien",
+  "characters": [
+    {
+      "unicode": "00E0",
+      "char": "à"
+    },
+    {
+      "unicode": "00E8",
+      "char": "è"
+    },
+    {
+      "unicode": "00E9",
+      "char": "é"
+    },
+    {
+      "unicode": "00EC",
+      "char": "ì"
+    },
+    {
+      "unicode": "00F2",
+      "char": "ò"
+    },
+    {
+      "unicode": "00F9",
+      "char": "ù"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb7fc4f9fd9ccf3ff734a"
+  },
+  "name": "Suèdois",
+  "characters": [
+    {
+      "unicode": "00E5",
+      "char": "å"
+    },
+    {
+      "unicode": "00E4",
+      "char": "ä"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb7fc4f9fd9ccf3ff734b"
+  },
+  "name": "Polonais",
+  "characters": [
+    {
+      "unicode": "0105",
+      "char": "ą"
+    },
+    {
+      "unicode": "0107",
+      "char": "ć"
+    },
+    {
+      "unicode": "0119",
+      "char": "ę"
+    },
+    {
+      "unicode": "0142",
+      "char": "ł"
+    },
+    {
+      "unicode": "0144",
+      "char": "ń"
+    },
+    {
+      "unicode": "00F3",
+      "char": "ó"
+    },
+    {
+      "unicode": "015B",
+      "char": "ś"
+    },
+    {
+      "unicode": "017A",
+      "char": "ź"
+    },
+    {
+      "unicode": "017C",
+      "char": "ż"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb7fc4f9fd9ccf3ff734c"
+  },
+  "name": "Finlandais",
+  "characters": [
+    {
+      "unicode": "00E4",
+      "char": "ä"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    },
+    {
+      "unicode": "0161",
+      "char": "š"
+    },
+    {
+      "unicode": "017E",
+      "char": "ž"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb7fc4f9fd9ccf3ff734d"
+  },
+  "name": "Hongrois",
+  "characters": [
+    {
+      "unicode": "00E1",
+      "char": "á"
+    },
+    {
+      "unicode": "00E9",
+      "char": "é"
+    },
+    {
+      "unicode": "00ED",
+      "char": "í"
+    },
+    {
+      "unicode": "00F3",
+      "char": "ó"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    },
+    {
+      "unicode": "00FA",
+      "char": "ú"
+    },
+    {
+      "unicode": "00FC",
+      "char": "ü"
+    },
+    {
+      "unicode": "0151",
+      "char": "ő"
+    },
+    {
+      "unicode": "0171",
+      "char": "ű"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb7fc4f9fd9ccf3ff734e"
+  },
+  "name": "Estonien",
+  "characters": [
+    {
+      "unicode": "00F5",
+      "char": "õ"
+    },
+    {
+      "unicode": "00E4",
+      "char": "ä"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    },
+    {
+      "unicode": "00FC",
+      "char": "ü"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb8604f9fd9ccf3ff734f"
+  },
+  "name": "Néerlandais",
+  "characters": [
+    {
+      "unicode": "00E4",
+      "char": "ä"
+    },
+    {
+      "unicode": "00EB",
+      "char": "ë"
+    },
+    {
+      "unicode": "00EF",
+      "char": "ï"
+    },
+    {
+      "unicode": "00F6",
+      "char": "ö"
+    },
+    {
+      "unicode": "00FC",
+      "char": "ü"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb8604f9fd9ccf3ff7350"
+  },
+  "name": "Tchèque",
+  "characters": [
+    {
+      "unicode": "010D",
+      "char": "č"
+    },
+    {
+      "unicode": "010F",
+      "char": "ď"
+    },
+    {
+      "unicode": "011B",
+      "char": "ě"
+    },
+    {
+      "unicode": "0148",
+      "char": "ň"
+    },
+    {
+      "unicode": "0159",
+      "char": "ř"
+    },
+    {
+      "unicode": "0161",
+      "char": "š"
+    },
+    {
+      "unicode": "0165",
+      "char": "ť"
+    },
+    {
+      "unicode": "017E",
+      "char": "ž"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb8604f9fd9ccf3ff7351"
+  },
+  "name": "Grec",
+  "characters": [
+    {
+      "unicode": "0391",
+      "char": "Α"
+    },
+    {
+      "unicode": "0392",
+      "char": "Β"
+    },
+    {
+      "unicode": "0393",
+      "char": "Γ"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb8604f9fd9ccf3ff7352"
+  },
+  "name": "Roumin",
+  "characters": [
+    {
+      "unicode": "0103",
+      "char": "ă"
+    },
+    {
+      "unicode": "00EE",
+      "char": "î"
+    },
+    {
+      "unicode": "0219",
+      "char": "ș"
+    },
+    {
+      "unicode": "021B",
+      "char": "ț"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659fb8604f9fd9ccf3ff7353"
+  },
+  "name": "Norvègien",
+  "characters": [
+    {
+      "unicode": "00E5",
+      "char": "å"
+    },
+    {
+      "unicode": "00E6",
+      "char": "æ"
+    },
+    {
+      "unicode": "00F8",
+      "char": "ø"
+    }
+  ]
+}]
