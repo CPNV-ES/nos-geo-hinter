@@ -16,6 +16,14 @@ class CountryController extends Controller
     }
 
     /**
+     * Display a lsting of the resource by Continent.
+     */
+    public function continent(){
+        $continents = Country::groupByContinents();
+        return view('flags', compact('continents'));
+    }
+
+    /**
      * Show the form for creating a new resource.
      */
     public function create()
