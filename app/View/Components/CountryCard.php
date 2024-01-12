@@ -6,7 +6,7 @@ use App\Models\Country;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class CountryHeader extends Component
+class CountryCard extends Component
 {
     public function __construct(
         public Country $country
@@ -16,7 +16,7 @@ class CountryHeader extends Component
 
     public function render(): View
     {
-        return view('components.country-header', [
+        return view('components.country-card', [
             'country' => $this->country,
         ]);
     }

@@ -1,7 +1,6 @@
-<div class="block p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Drapeau</h5>
+<div class="block max-w-2xl p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:text-gray-50 text-gray-900">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight">Drapeau</h5>
     <div class="pb-4">
-        <h6 class="text-lg mb-2">Arrangement</h6>
         <img src="{{$flag->layout['image']}}" alt="Arrangement {{$flag->layout['description']}}">
     </div>
     <div>
