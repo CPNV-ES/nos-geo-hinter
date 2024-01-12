@@ -32,9 +32,9 @@ class ComponentController extends Controller
         return view('test.components.language', ['language' => $this->country->languages()[0]]);
     }
 
-    public function countryHeader(): View
+    public function countryCard(): View
     {
-        return view('test.components.country-header', ['country' => $this->country]);
+        return view('test.components.country-card', ['country' => $this->country]);
     }
 
 
