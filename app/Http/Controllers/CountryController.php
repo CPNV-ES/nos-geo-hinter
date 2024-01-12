@@ -12,13 +12,6 @@ class CountryController extends Controller
      */
     public function index()
     {
-        return Country::all();
-    }
-
-    /**
-     * Display a lsting of the resource by Continent.
-     */
-    public function continent(){
         $continents = Country::groupByContinents();
         return view('flags', compact('continents'));
     }
