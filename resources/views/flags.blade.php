@@ -9,76 +9,23 @@
 </head>
 <body>
 <div class="main-container">
-    <div class="pt-20">
+    <div class="pt-24">
         @component('components.navbar')
         @endcomponent
     </div>
-    <div class="text-4xl">Europe</div>
-    <br>
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <!-- etcc... -->
-    </div>
-    <div class="text-4xl pt-6">Asie</div>
-    <br>
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <!-- etcc... -->
-    </div>
-    <div class="text-4xl pt-6">Amérique du Sud</div>
-    <br>
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <!-- etcc... -->
-    </div>
-    <div class="text-4xl pt-6">Amérique du Nord</div>
-    <br>
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <!-- etcc... -->
-    </div>
-    <div class="text-4xl pt-6">Afrique</div>
-    <br>
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <!-- etcc... -->
-    </div>
-    <div class="text-4xl pt-6">Océanie</div>
-    <br>
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-        <!-- etcc... -->
-    </div>
+    @foreach($continents as $key=>$continent)
+        <div class="pb-6">
+            <div class="text-3xl pb-2">{{ $key }}</div>
+            <div class="grid grid-cols-3 gap-4">
+                @foreach($continent as $country)
+                    <x-country-header :$country/>
+                @endforeach
+            </div>
+        </div>
+    @endforeach
+
 </div>
+
+
 </body>
 </html>
