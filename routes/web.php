@@ -3,6 +3,7 @@
 use App\Http\Controllers\ComponentController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Country;
+use App\Http\Controllers\HintController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,4 @@ Route::get("/country/{country}", function (Country $country) {
 
 Route::get('/test/components/color', [ComponentController::class, 'color']);
 Route::get('/test/components/flag', [ComponentController::class, 'flag']);
+Route::post('/api/hint/log', [HintController::class, 'LogUsefullHint'])->name('hint.log');
