@@ -17,7 +17,7 @@
         <div class="grid grid-cols-3 gap-1">
             <div class=""><h1 class="text-4xl underline">Nom du pays</h1></div>
             <div class=""><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg" style="height: 50px; width: 50px" alt="Drapeau du pays"></div>
-            <div class=""><img src="/images/google-street-view-vector-logo.png" style="height: 50px; width: 50px" alt="Logo Street View"></div>
+            <div class=""><img src="/img/google-street-view-vector-logo.png" style="height: 50px; width: 50px" alt="Logo Street View"></div>
         </div>
     </div>
     <br>
