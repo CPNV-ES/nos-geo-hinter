@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ComponentController;
+use App\Http\Controllers\CountryController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Country;
 
@@ -16,7 +17,19 @@ use App\Models\Country;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('/country', function () {
+    return view('country');
+});
+Route::get('/flags', function () {
+    return view('flags');
+});
+Route::get('/global', function () {
+    return view('global');
+});
+Route::get('/error', function () {
+    return view('error');
 });
 Route::get("/country/{country}", function (Country $country) {
     return $country;
@@ -26,3 +39,5 @@ Route::get('/test/components/color', [ComponentController::class, 'color']);
 Route::get('/test/components/flag', [ComponentController::class, 'flag']);
 Route::get('/test/components/language', [ComponentController::class, 'language']);
 Route::get('/test/components/country-card', [ComponentController::class, 'countryCard']);
+
+Route::get('/countries', [CountryController::class, 'index']);
