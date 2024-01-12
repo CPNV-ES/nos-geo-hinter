@@ -1,5 +1,5 @@
 @extends('test.components.layout')
 
 @section('content')
-    <x-language :language="$language" />
+    <x-hint.language :$language />
 @endsection

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Hint;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -14,8 +14,6 @@ class Language extends Component
 
     public function render(): View
     {
-        return view('components.language', [
-            'language' => $this->language,
-        ]);
+        return view('components.hints.language');
     }
 }

@@ -12,9 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js" defer></script>
 </head>
-<body class="bg-gray-200 grid" style="height: 100dvh">
-<div class="p-6 bg-white border border-gray-300 rounded-lg place-self-center dark:bg-gray-900">
-    @yield('content')
-</div>
+<body class="bg-gray-200 grid gap-5" style="height: 100dvh">
+@yield('content')
 </body>
 </html>

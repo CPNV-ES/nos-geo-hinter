@@ -24,7 +24,7 @@ class ComponentController extends Controller
 
     public function flag(): View
     {
-        return view('test.components.flag', ['flag' => $this->country->flag]);
+        return view('test.components.flag', ['countries' => Country::all()]);
     }
 
     public function language(): View

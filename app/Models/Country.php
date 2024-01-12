@@ -19,6 +19,12 @@ class Country extends Model
         return $this->embedsOne(Flag::class);
     }
 
+    public function __get($key)
+    {
+        if ($key === 'languages') return $this->languages();
+        return parent::__get($key);
+    }
+
     public function circulation(): EmbedsOne
     {
         return $this->embedsOne(Circulation::class);
@@ -34,7 +40,7 @@ class Country extends Model
         return $this->embedsMany(Language::class);
     }
 
-    public function languages()
+    private function languages()
     {
         $result = DB::collection('countries')->raw(function ($collection) {
             return $collection->aggregate([
