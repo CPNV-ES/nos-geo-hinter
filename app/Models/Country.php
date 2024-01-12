@@ -25,6 +25,11 @@ class Country extends Model
         return parent::__get($key);
     }
 
+    public static function names()
+    {
+        return Country::all(['id', 'name']);
+    }
+
     public function circulation(): EmbedsOne
     {
         return $this->embedsOne(Circulation::class);
