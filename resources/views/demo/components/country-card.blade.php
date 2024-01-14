@@ -1,4 +1,4 @@
-@extends('test.components.layout')
+@extends('demo.components.layout')
 
 @section('content')
     <div class="p-6 m-6 border-2 border-dashed border-violet-600 rounded-lg place-self-center dark:bg-gray-900 relative">

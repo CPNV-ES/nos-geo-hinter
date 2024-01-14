@@ -1,4 +1,4 @@
-@extends('test.components.layout')
+@extends('demo.components.layout')
 
 @section('content')
     @foreach($countries as $country)

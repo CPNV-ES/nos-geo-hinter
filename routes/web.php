@@ -20,10 +20,7 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/country', function () {
-    return view('country');
-});
-Route::get('/flags', function () {
-    return view('flags');
+    return view('country.show');
 });
 Route::get('/global', function () {
     return view('global');

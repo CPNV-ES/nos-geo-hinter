@@ -9,6 +9,8 @@ use Illuminate\Contracts\View\View;
 class ComponentController extends Controller
 {
 
+    private Country $country;
+
     public function __construct()
     {
         $this->country = Country::find('655f32258990200748e635b8');
@@ -19,22 +21,22 @@ class ComponentController extends Controller
         $color = new Color();
         $color->name = 'Rouge';
         $color->hex = 'FF0000';
-        return view('test.components.color', compact('color'));
+        return view('demo.components.color', compact('color'));
     }
 
     public function flag(): View
     {
-        return view('test.components.flag', ['countries' => Country::all()]);
+        return view('demo.components.flag', ['countries' => Country::all()]);
     }
 
     public function language(): View
     {
-        return view('test.components.language', ['language' => $this->country->languages()[0]]);
+        return view('demo.components.language', ['language' => $this->country->languages()[0]]);
     }
 
     public function countryCard(): View
     {
-        return view('test.components.country-card', ['country' => $this->country]);
+        return view('demo.components.country-card', ['country' => $this->country]);
     }
 
 
