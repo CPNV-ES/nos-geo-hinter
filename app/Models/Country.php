@@ -100,7 +100,10 @@ class Country extends Model
             $r->put($item['_id'], self::hydrate($item['countries']));
         }
 
-        return $r;
+        $r = $r->toArray();
+        ksort($r);
+
+        return collect($r);
     }
 
     /**
