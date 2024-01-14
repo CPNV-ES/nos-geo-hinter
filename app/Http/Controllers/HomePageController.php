@@ -19,9 +19,13 @@ class HomePageController extends Controller
         $logCount = Log::all()->count();
         $bestCountry = $this->bestCountry();
         $bestHint = $this->bestHint();
+        $bestCountryByFlag = $this->bestCountryByScope('flag');
+        $bestCountryByLanguage = $this->bestCountryByScope('language');
+        $bestCountryBySign = $this->bestCountryByScope('sign');
+        $bestCountryByChar = $this->bestCountryByScope('char');
 
 
-        return view('index', compact('countries', 'languages', 'logCount', 'bestCountry', 'bestHint'));
+        return view('index', compact('countries', 'languages', 'logCount', 'bestCountry', 'bestHint', 'bestCountryByFlag', 'bestCountryByLanguage', 'bestCountryBySign', 'bestCountryByChar'));
     }
 
     public function bestCountry()
