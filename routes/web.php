@@ -36,6 +36,7 @@ Route::resources([
 ]);
 Route::get('/test/components/color', [ComponentController::class, 'color']);
 Route::get('/test/components/flag', [ComponentController::class, 'flag']);
+Route::get('/test/components/plate', [ComponentController::class, 'plate']);
 Route::post('/api/hint/log', [HintController::class, 'LogUsefullHint'])->name('hint.log');
 Route::get('/api/hint/stats', [HintController::class, 'stats'])->name('hint.stats');
 Route::get('/test/components/language', [ComponentController::class, 'language']);

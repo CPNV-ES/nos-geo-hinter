@@ -31,6 +31,11 @@ class ComponentController extends Controller
         return view('test.components.flag', ['countries' => Country::all()]);
     }
 
+    public function plate(): View
+    {
+        return view('test.components.plate', ['countries' => Country::all()]);
+    }
+
     public function language(): View
     {
         return view('test.components.language', ['language' => $this->country->languages()[0]]);
