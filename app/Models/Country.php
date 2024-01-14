@@ -135,4 +135,3 @@ class Country extends Model
         }
         return $object;
     }
-

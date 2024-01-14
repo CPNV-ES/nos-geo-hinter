@@ -3,67 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite(['resources/css/app.css','resources/js/app.js'])
     <title>GeoHintr</title>
 </head>
-<body>
-<div class="pt-20">
+<body class="pt-40">
     @component('components.navbar')
     @endcomponent
-</div>
-<div class="main-container pt-20">
+<div class="max-w-screen-xl mx-auto px-3">
     <div class="container">
-        <div class="grid grid-cols-3 gap-1">
-            <div class=""><h1 class="text-4xl underline">Nom du pays</h1></div>
-            <div class=""><img
-                    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg"
-                    style="height: 50px; width: 50px" alt="Drapeau du pays"></div>
-            <div class=""><img src="{{$country->flag->image}}" style="height: 50px; width: 50px"
-                               alt="Logo Street View"></div>
+        <div class="border-b border-b-gray-400 pb-2 flex gap-2">
+            <img src="{{ $country->flag->image }}" alt="Drapeau {{ $country->name }}" class="h-16 rounded">
+            <div>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $country->name }}</h1>
+                <p class="text-gray-500">{{ $country->continent }}</p>
+            </div>
         </div>
     </div>
     <br>
     <div class="grid grid-cols-2">
-        <div class="grid grid-row-3 gap-1">
+        <div class="grid grid-row-3 gap-1 relative">
             <x-hint.flag :flag="$country->flag"/>
-            <x-log :country="$country" scope='Forme'></x-log>
+            <x-log :country="$country" scope='Forme' class="absolute top-3 right-3"></x-log>
         </div>
         <div class="grid grid-rows-2 gap-1">
-            <div class=""><h1 class="text-2xl">Spécial Char</h1>
-                <div class="text-lg">ñ</div>
-                <div>
-                    <x-log :country="$country" scope='Charactère'></x-log>
-                </div>
-
-                <div class=""><h1 class="text-2xl">Language</h1>
-                    <div class="text-lg">Anglais</div>
-                    <div>
-                        <x-log :country="$country" scope='Langue'></x-log>
-                    </div>
-                </div>
-                <div class="grid grid-row-3 gap-1">
-                    <div class=""><h1 class="text-3xl">Panneaux</h1></div>
-                    <div class="">Autoroute :</div>
-                    <div class="">Route principales :
-                        <x-color></x-color>
-                    </div>
-                    <div>
-                        <x-log :country="$country" scope="Panneaux"></x-log>
-                    </div>
-                    <div class="grid grid-row-3 gap-1">
-                        <div class=""><h1 class="text-3xl">Drapeau</h1></div>
-                        <div class=""><img class="text-2xl" src="#" alt="Layout du drapeau"></div>
-                        <div class=""></div>
-                        <div>
-                            <x-log :country="$country" scope="Drapeau"></x-log>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="block max-w-2xl p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:text-gray-50 text-gray-900">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight">Langues</h5>
+                @foreach($country->languages as $language)
+                    <x-hint.language :language="$language"/>
+                @endforeach
+                <x-log :country="$country" scope='Langue'></x-log>
             </div>
-
+        </div>
+        <div class="grid grid-row-3 gap-1">
+            <div class="block max-w-2xl p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:text-gray-50 text-gray-900">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight">Panneaux</h5>
+                @foreach($country->signs as $sign)
+                    <x-hint.sign :sign="$sign"/>
+                @endforeach
+                <x-log :country="$country" scope="Panneaux"></x-log>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
 
