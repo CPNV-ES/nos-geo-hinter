@@ -102,17 +102,31 @@ class Country extends Model
 
         return $r;
     }
+
+    /**
+     * Function to return the number of countries in the database
+     */
+    public static function countCountries(){
+        $result = DB::collection('countries')->raw(function ($collection) {
+            return $collection->aggregate([
+                [
+                    '$count' => 'count'
+                ]
+            ]);
+        });
+        return $result->toArray()[0]->count;
+    }
 }
 
-function toArray(&$object)
-{
-    if (is_object($object) && in_array(get_class($object), [BSONDocument::class, BSONArray::class])) {
-        $object = $object->getArrayCopy();
-    }
-    if (is_array($object)) {
-        foreach ($object as &$item) {
-            toArray($item);
+    function toArray(&$object)
+    {
+        if (is_object($object) && in_array(get_class($object), [BSONDocument::class, BSONArray::class])) {
+            $object = $object->getArrayCopy();
         }
+        if (is_array($object)) {
+            foreach ($object as &$item) {
+                toArray($item);
+            }
+        }
+        return $object;
     }
-    return $object;
-}
