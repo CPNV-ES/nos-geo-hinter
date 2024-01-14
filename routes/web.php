@@ -4,7 +4,6 @@ use App\Http\Controllers\ComponentController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\HomePageController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CountryController;
 use App\Http\Controllers\HintController;
 
 /*
