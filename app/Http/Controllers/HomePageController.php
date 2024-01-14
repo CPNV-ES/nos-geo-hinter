@@ -19,10 +19,10 @@ class HomePageController extends Controller
         $logCount = Log::all()->count();
         $bestCountry = $this->bestCountry();
         $bestHint = $this->bestHint();
-        $bestCountryByFlag = $this->bestCountryByScope('flag');
-        $bestCountryByLanguage = $this->bestCountryByScope('language');
-        $bestCountryBySign = $this->bestCountryByScope('sign');
-        $bestCountryByChar = $this->bestCountryByScope('char');
+        $bestCountryByFlag = $this->bestCountryByScope('Drapeau');
+        $bestCountryByLanguage = $this->bestCountryByScope('Langue');
+        $bestCountryBySign = $this->bestCountryByScope('Panneau');
+        $bestCountryByChar = $this->bestCountryByScope('Caractère');
 
 
         return view('index', compact('countries', 'languages', 'logCount', 'bestCountry', 'bestHint', 'bestCountryByFlag', 'bestCountryByLanguage', 'bestCountryBySign', 'bestCountryByChar'));
@@ -42,7 +42,8 @@ class HomePageController extends Controller
         return Country::find($bestCountry)->name;
     }
 
-    public function bestHint(){
+    public function bestHint()
+    {
         $logs = Log::all();
         $stats = [];
         foreach ($logs as $log) {
@@ -55,14 +56,15 @@ class HomePageController extends Controller
         return $bestHint;
     }
 
-    public function bestCountryByScope($scope){
+    public function bestCountryByScope($scope)
+    {
         $logs = Log::all();
         $stats = [];
         foreach ($logs as $log) {
             if (!isset($stats[$log->country_id])) {
                 $stats[$log->country_id] = 0;
             }
-            if($log->scope == $scope){
+            if ($log->scope == $scope) {
                 $stats[$log->country_id]++;
             }
         }
