@@ -23,6 +23,21 @@
       }
     }
   },
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/rectangle.svg",
+        "name": "Rectangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "007f46",
+          "name": "Vert"
+        }
+      },
+      "type": "HIGHWAY"
+    }
+  ],
   "flag": {
     "image": "/img/flags/countries/ch.svg",
     "colors": [
@@ -106,6 +121,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff7326"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/octagon.svg",
+        "name": "Octagon"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "STOP"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/rectangle.svg",
+        "name": "Rectangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "SPEED_LIMIT"
+    }
   ]
 },
 {
@@ -158,6 +209,42 @@
     },
     {
       "$oid": "659ee72d4f9fd9ccf3ff7330"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/octagon.svg",
+        "name": "Octagon"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "STOP"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/rectangle.svg",
+        "name": "Rectangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "SPEED_LIMIT"
     }
   ]
 },
@@ -213,6 +300,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff7329"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFF00",
+          "name": "Yellow"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
+    }
   ]
 },
 {
@@ -266,6 +389,42 @@
   "languages_ids": [
     {
       "$oid": "659ee72d4f9fd9ccf3ff7326"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#0000FF",
+          "name": "Blue"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "MANDATORY"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -321,6 +480,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff7330"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/diamond.svg",
+        "name": "Diamond"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFF00",
+          "name": "Yellow"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "PRIORITY"
+    }
   ]
 },
 {
@@ -374,6 +569,42 @@
   "languages_ids": [
     {
       "$oid": "659ee72d4f9fd9ccf3ff732d"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -429,6 +660,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff733a"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
+    }
   ]
 },
 {
@@ -478,6 +745,42 @@
   "languages_ids": [
     {
       "$oid": "659ee72d4f9fd9ccf3ff7325"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -533,6 +836,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff7326"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/diamond.svg",
+        "name": "Diamond"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFF00",
+          "name": "Yellow"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
+    }
   ]
 },
 {
@@ -582,6 +921,42 @@
   "languages_ids": [
     {
       "$oid": "659ee72d4f9fd9ccf3ff732b"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -641,6 +1016,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff732f"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
+    }
   ]
 },
 {
@@ -694,6 +1105,42 @@
   "languages_ids": [
     {
       "$oid": "659ee72d4f9fd9ccf3ff7327"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -749,6 +1196,42 @@
     {
       "$oid": "659ee72d4f9fd9ccf3ff732a"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
+    }
   ]
 },
 {
@@ -802,6 +1285,42 @@
   "languages_ids": [
     {
       "$oid": "659ee72d4f9fd9ccf3ff7325"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -865,7 +1384,43 @@
     "has_specials_shapes": false
   },
   "street_viewed": true,
-  "languages_ids": []
+  "languages_ids": [],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/diamond.svg",
+        "name": "Diamond"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFF00",
+          "name": "Yellow"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
+    }
+  ]
 },
 {
   "_id": {
@@ -914,6 +1469,42 @@
   "languages_ids": [
     {
       "$oid": "659fb7fc4f9fd9ccf3ff734b"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -964,6 +1555,42 @@
   "languages_ids": [
     {
       "$oid": "659fb8604f9fd9ccf3ff734f"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -1019,6 +1646,42 @@
     {
       "$oid": "659fb8604f9fd9ccf3ff7353"
     }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
+    }
   ]
 },
 {
@@ -1069,7 +1732,43 @@
     "has_specials_shapes": false
   },
   "street_viewed": true,
-  "languages_ids": []
+  "languages_ids": [],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
+    }
+  ]
 },
 {
   "_id": {
@@ -1118,6 +1817,42 @@
   "languages_ids": [
     {
       "$oid": "659fb7fc4f9fd9ccf3ff734c"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
@@ -1172,6 +1907,42 @@
   "languages_ids": [
     {
       "$oid": "659fb7fc4f9fd9ccf3ff734e"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#000000",
+          "name": "Black"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 }]
