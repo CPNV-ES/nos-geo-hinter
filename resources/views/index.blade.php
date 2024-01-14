@@ -21,62 +21,65 @@
                  aria-labelledby="stats-tab">
                 <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 dark:text-white sm:p-8">
                     <div class="flex flex-col items-center justify-center">
-                        <dd class="text-gray-500 dark:text-gray-400">Nombres de recherche</dd>
-                        <dt class="mb-2 text-4xl font-extrabold">73M+</dt>
-
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <dd class="text-gray-500 dark:text-gray-400">Nombres de hints</dd>
-                        <dt class="mb-2 text-4xl font-extrabold">100M+</dt>
-                    </div>
-
-                    <div class="flex flex-col items-center justify-center">
                         <dd class="text-gray-500 dark:text-gray-400">Nombres de Pays</dd>
                         <dt class="mb-2 text-4xl font-extrabold">{{$countries}}</dt>
                     </div>
 
                     <div class="flex flex-col items-center justify-center">
-                        <dd class="text-gray-500 dark:text-gray-400">Drapeaux</dd>
-                        <dt class="mb-2 text-4xl font-extrabold">{{$flags}}</dt>
+                        <dd class="text-gray-500 dark:text-gray-400">Satisfactions</dd>
+                        <dt class="mb-2 text-4xl font-extrabold">{{$logCount}}</dt>
+
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dd class="text-gray-500 dark:text-gray-400">Pays le plus rechercher</dd>
+                        <dt class="mb-2 text-4xl font-extrabold">{{$bestCountry}}</dt>
                     </div>
 
-                        <div class="flex flex-col items-center justify-center">
-                            <dd class="text-gray-500 dark:text-gray-400">Panneaux</dd>
-                            <dt class="mb-2 text-4xl font-extrabold">71</dt>
-
-                        </div>
-                        <div class="flex flex-col items-center justify-center">
-                            <dd class="text-gray-500 dark:text-gray-400">LOL</dd>
-                            <dt class="mb-2 text-4xl font-extrabold">∞</dt>
-
-                        </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dd class="text-gray-500 dark:text-gray-400">Hint le plus populaire</dd>
+                        <dt class="mb-2 text-4xl font-extrabold">{{$bestHint}}</dt>
                     </div>
-                </dl>
+
+                    <div class="flex flex-col items-center justify-center">
+                        <dd class="text-gray-500 dark:text-gray-400">Nombres de languages</dd>
+                        <dt class="mb-2 text-4xl font-extrabold">{{ $languages }}</dt>
+
+                    </div>
             </div>
-            <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="about" role="tabpanel"
-                 aria-labelledby="about-tab">
-                <!-- List -->
-                <ul role="list" class="space-y-4 text-gray-500 dark:text-gray-400">
-                </ul>
-            </div>
-            <div class="hidden p-4 bg-white rounded-lg dark:bg-gray-800" id="faq" role="tabpanel" aria-labelledby="faq-tab">
-                <div id="accordion-flush" data-accordion="collapse"
-                     data-active-classes="bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                     data-inactive-classes="text-gray-500 dark:text-gray-400">
-                </div>
+            </dl>
+        </div>
+        <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="about" role="tabpanel"
+             aria-labelledby="about-tab">
+            <!-- List -->
+            <ul role="list" class="space-y-4 text-gray-500 dark:text-gray-400">
+            </ul>
+        </div>
+        <div class="hidden p-4 bg-white rounded-lg dark:bg-gray-800" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+            <div id="accordion-flush" data-accordion="collapse"
+                 data-active-classes="bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+                 data-inactive-classes="text-gray-500 dark:text-gray-400">
             </div>
         </div>
     </div>
+</div>
 
 
-    <div class="px-6 pt-3">
-        <div class="grid grid-cols-2 gap-6">
-            <div class="row-span-1"><x-top-card></x-top-card></div>
-            <div class="col-span-1 right-0"><x-top-card></x-top-card></div>
-            <div class="row-span-2"><x-top-card></x-top-card></div>
-            <div class="row-span-2"><x-top-card></x-top-card></div>
+<div class="px-6 pt-3">
+    <div class="grid grid-cols-2 gap-6">
+        <div class="row-span-1">
+            <x-top-card></x-top-card>
+        </div>
+        <div class="col-span-1 right-0">
+            <x-top-card></x-top-card>
+        </div>
+        <div class="row-span-2">
+            <x-top-card></x-top-card>
+        </div>
+        <div class="row-span-2">
+            <x-top-card></x-top-card>
         </div>
     </div>
+</div>
 </div>
 </body>
 </html>
