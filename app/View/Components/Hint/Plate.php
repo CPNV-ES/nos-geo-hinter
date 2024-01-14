@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 class Plate extends Component
 {
     public function __construct(
-        public \App\Models\Plate $plate
+        public \App\Models\Country $country
     )
     {
     }
