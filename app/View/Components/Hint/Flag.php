@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 class Flag extends Component
 {
     public function __construct(
-        public \App\Models\Flag $flag
+        public \App\Models\Country $country
     )
     {
     }
