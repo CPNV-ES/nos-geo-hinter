@@ -38,6 +38,7 @@ This is a project to use some noSQL database. The goal of this project is to pro
 ## Prerequisites
 
 * PHP 8.3.1 (NTS)
+* Laravel 10.x
 * composer 2.6.6
 * MongoDB 7.0.2 Community
 
@@ -47,9 +48,16 @@ This is a project to use some noSQL database. The goal of this project is to pro
 
 > Use your favourite package manager to install PHP 8.3.1 (TS). Or follow this [link](https://www.php.net/manual/install.php) that redirects to the official PHP download page.
 
+> In your php.ini add extension="mongodb.so"
+
 #### MangoDB
 
 > Follow this [link]([https://xdebug.org/docs/install](https://www.mongodb.com/try/download/compass)) that redirects to the official compass install documentation.
+
+Run this command :
+```shell
+sudo pecl install mongodb
+``` 
 
 #### composer
 
