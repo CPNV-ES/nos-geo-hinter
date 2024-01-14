@@ -71,10 +71,15 @@ sudo pecl install mongodb
 ```shell
 composer install 
 ```
+2. Install all npm packages
 
-2. copy the .env.example or set the required environment variables
+```shell
+npm install
+```
 
-3. All done, you can now use the application as you wish
+3. copy the .env.example or set the required environment variables
+
+4. All done, you can now use the application as you wish
 
 ### Run
 
