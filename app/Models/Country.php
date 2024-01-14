@@ -30,6 +30,11 @@ class Country extends Model
         return Country::all(['id', 'name']);
     }
 
+    public function signs()
+    {
+        return $this->embedsMany(Sign::class);
+    }
+
     public function circulation(): EmbedsOne
     {
         return $this->embedsOne(Circulation::class);
