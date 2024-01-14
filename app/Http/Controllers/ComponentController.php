@@ -21,6 +21,10 @@ class ComponentController extends Controller
         $color->hex = 'FF0000';
         return view('test.components.color', compact('color'));
     }
+    public function searchBar() : view
+    {
+        return view('test.components.search-bar');
+    }
 
     public function flag(): View
     {

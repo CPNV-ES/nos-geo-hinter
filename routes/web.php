@@ -38,6 +38,7 @@ Route::get("/country/{country}", function (Country $country) {
 Route::get('/test/components/color', [ComponentController::class, 'color']);
 Route::get('/test/components/flag', [ComponentController::class, 'flag']);
 Route::get('/test/components/language', [ComponentController::class, 'language']);
+Route::get('/test/components/country-header', [ComponentController::class, 'countryHeader']);
+Route::get('/test/components/search-bar', [ComponentController::class, 'searchBar']);
 Route::get('/test/components/country-card', [ComponentController::class, 'countryCard']);
-
 Route::get('/countries', [CountryController::class, 'index']);
