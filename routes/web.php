@@ -18,10 +18,6 @@ use App\Http\Controllers\HintController;
 */
 Route::get('/', [HomePageController::class, 'index']);
 
-
-Route::get('/countries', function () {
-    return view('countries');
-});
 Route::get('/flags', function () {
     return view('flags');
 });
