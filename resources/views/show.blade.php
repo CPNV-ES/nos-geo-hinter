@@ -27,9 +27,7 @@
     <br>
     <div class="grid grid-cols-2">
         <div class="grid grid-row-3 gap-1">
-            <div class=""><h1 class="text-3xl">Drapeau</h1></div>
-            <div class=""><img class="text-2xl" src="#" alt="Layout du drapeau"></div>
-            <div class=""></div>
+            <x-hint.flag :flag="$country->flag"/>
             <x-log :country="$country" scope='Forme'></x-log>
         </div>
         <div class="grid grid-rows-2 gap-1">
