@@ -1,0 +1,351 @@
+[{
+  "_id": {
+    "$oid": "65a442c2e46afd57f60b27f3"
+  },
+  "country_id": "234567890",
+  "scope": "sign",
+  "updated_at": {
+    "$date": "2024-01-14T20:23:30.916Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:23:30.916Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442c8e46afd57f60b27f4"
+  },
+  "country_id": "234567891",
+  "scope": "sign",
+  "updated_at": {
+    "$date": "2024-01-14T20:23:36.036Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:23:36.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442e5e46afd57f60b27f5"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "sign",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:05.074Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:05.074Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442e7e46afd57f60b27f6"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "sign",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:07.530Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:07.530Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442e9e46afd57f60b27f7"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "sign",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:09.208Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:09.208Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442ebe46afd57f60b27f8"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "sign",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:11.155Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:11.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442f2e46afd57f60b27f9"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "language",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:18.312Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:18.312Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442f4e46afd57f60b27fa"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "language",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:20.647Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:20.647Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a442f6e46afd57f60b27fb"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "language",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:22.489Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:22.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a4430ce46afd57f60b27fc"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "plate",
+  "updated_at": {
+    "$date": "2024-01-14T20:24:44.300Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:24:44.300Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a44323e46afd57f60b27fd"
+  },
+  "country_id": "655f32258990200748e635b8",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:25:07.830Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:25:07.830Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a4455ae46afd57f60b27fe"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:34:34.113Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:34:34.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a4455ce46afd57f60b27ff"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:34:36.689Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:34:36.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a44560e46afd57f60b2800"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:34:40.628Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:34:40.628Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a4456be46afd57f60b2801"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:34:51.512Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:34:51.512Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a4456ee46afd57f60b2802"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:34:54.028Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:34:54.028Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a44579e46afd57f60b2803"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "plate",
+  "updated_at": {
+    "$date": "2024-01-14T20:35:05.129Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:35:05.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a44580e46afd57f60b2804"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "plate",
+  "updated_at": {
+    "$date": "2024-01-14T20:35:12.397Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:35:12.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a44582e46afd57f60b2805"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "plate",
+  "updated_at": {
+    "$date": "2024-01-14T20:35:14.619Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:35:14.619Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445b8e46afd57f60b2806"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "plate",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:08.167Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:08.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445bae46afd57f60b2807"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "plate",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:10.108Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:10.108Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445c0e46afd57f60b2808"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "language",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:16.549Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:16.549Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445c3e46afd57f60b2809"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "language",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:19.036Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:19.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445c5e46afd57f60b280a"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "language",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:21.953Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:21.953Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445cde46afd57f60b280b"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:29.824Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:29.824Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445d2e46afd57f60b280c"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:34.773Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:34.773Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a445d5e46afd57f60b280d"
+  },
+  "country_id": "659f9a8e4f9fd9ccf3ff733b",
+  "scope": "flag",
+  "updated_at": {
+    "$date": "2024-01-14T20:36:37.372Z"
+  },
+  "created_at": {
+    "$date": "2024-01-14T20:36:37.372Z"
+  }
+}]
