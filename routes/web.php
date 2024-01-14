@@ -19,8 +19,8 @@ use App\Models\Country;
 Route::get('/', [HomePageController::class, 'index']);
 
 
-Route::get('/country', function () {
-    return view('country');
+Route::get('/countries', function () {
+    return view('countries');
 });
 Route::get('/flags', function () {
     return view('flags');
