@@ -1,6 +1,3 @@
-<head>@vite(['resources/css/app.css','resources/js/app.js'])</head>
-
-
 <div class=" w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 
     <div class="border-t border-gray-200 dark:border-gray-600">
@@ -15,27 +12,26 @@
                 <div class="flex flex-col items-center justify-center">
                     <dd class="text-gray-500 dark:text-gray-400">Nombres de hints</dd>
                     <dt class="mb-2 text-4xl font-extrabold">100M+</dt>
-
-                </div>
-                <div class="flex flex-col items-center justify-center">
-                    <dd class="text-gray-500 dark:text-gray-400">Drapeaux</dd>
-                    <dt class="mb-2 text-4xl font-extrabold">204</dt>
-
                 </div>
                 <div class="flex flex-col items-center justify-center">
                     <dd class="text-gray-500 dark:text-gray-400">Nombres de Pays</dd>
-                    <dt class="mb-2 text-4xl font-extrabold">74</dt>
-
+                    <dt class="mb-2 text-4xl font-extrabold">{{$countries}}</dt>
                 </div>
                 <div class="flex flex-col items-center justify-center">
-                    <dd class="text-gray-500 dark:text-gray-400">Panneaux</dd>
-                    <dt class="mb-2 text-4xl font-extrabold">71</dt>
+                    <dd class="text-gray-500 dark:text-gray-400">Drapeaux</dd>
+                    <dt class="mb-2 text-4xl font-extrabold">{{$flags}}</dt>
 
-                </div>
-                <div class="flex flex-col items-center justify-center">
-                    <dd class="text-gray-500 dark:text-gray-400">LOL</dd>
-                    <dt class="mb-2 text-4xl font-extrabold">∞</dt>
 
+                    <div class="flex flex-col items-center justify-center">
+                        <dd class="text-gray-500 dark:text-gray-400">Panneaux</dd>
+                        <dt class="mb-2 text-4xl font-extrabold">71</dt>
+
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dd class="text-gray-500 dark:text-gray-400">LOL</dd>
+                        <dt class="mb-2 text-4xl font-extrabold">∞</dt>
+
+                    </div>
                 </div>
             </dl>
         </div>
@@ -53,3 +49,4 @@
         </div>
     </div>
 </div>
+
