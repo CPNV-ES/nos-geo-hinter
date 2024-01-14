@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ComponentController;
 use App\Http\Controllers\CountryController;
+use App\Http\Controllers\HomePageController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Country;
 
@@ -15,10 +16,9 @@ use App\Models\Country;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [HomePageController::class, 'index']);
 
-Route::get('/', function () {
-    return view('index');
-});
+
 Route::get('/country', function () {
     return view('country');
 });
