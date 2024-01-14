@@ -20,4 +20,31 @@ class HomePageController extends Controller
 
         return view('index', compact('countries', 'languages', 'circulations', 'flags', 'plates'));
     }
+
+    public function bestCountry()
+    {
+        $logs = Log::all();
+        $stats = [];
+        foreach ($logs as $log) {
+            if (!isset($stats[$log->country_id])) {
+                $stats[$log->country_id] = 0;
+            }
+            $stats[$log->country_id]++;
+        }
+        $bestCountry = array_search(max($stats), $stats);
+        return Country::find($bestCountry)->name;
+    }
+
+    public function bestHint(){
+        $logs = Log::all();
+        $stats = [];
+        foreach ($logs as $log) {
+            if (!isset($stats[$log->scope])) {
+                $stats[$log->scope] = 0;
+            }
+            $stats[$log->scope]++;
+        }
+        $bestHint = array_search(max($stats), $stats);
+        return $bestHint;
+    }
 }
