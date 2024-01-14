@@ -50,4 +50,21 @@ class HomePageController extends Controller
         $bestHint = array_search(max($stats), $stats);
         return $bestHint;
     }
+
+    public function bestCountryByScope($scope){
+        $logs = Log::all();
+        $stats = [];
+        foreach ($logs as $log) {
+            if (!isset($stats[$log->country_id])) {
+                $stats[$log->country_id] = 0;
+            }
+            if($log->scope == $scope){
+                $stats[$log->country_id]++;
+            }
+        }
+        $bestCountry = array_search(max($stats), $stats);
+
+        return Country::find($bestCountry);
+
+    }
 }
