@@ -23,21 +23,6 @@
       }
     }
   },
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/rectangle.svg",
-        "name": "Rectangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "007f46",
-          "name": "Vert"
-        }
-      },
-      "type": "HIGHWAY"
-    }
-  ],
   "flag": {
     "image": "/img/flags/countries/ch.svg",
     "colors": [
@@ -66,6 +51,42 @@
     },
     {
       "$oid": "659ee72d4f9fd9ccf3ff733a"
+    }
+  ],
+  "signs": [
+    {
+      "shape": {
+        "image": "/img/signs/shape/circle.svg",
+        "name": "Circle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FF0000",
+          "name": "Red"
+        },
+        "1": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        }
+      },
+      "type": "PROHIBITION"
+    },
+    {
+      "shape": {
+        "image": "/img/signs/shape/triangle.svg",
+        "name": "Triangle"
+      },
+      "colors": {
+        "0": {
+          "hex": "#FFFFFF",
+          "name": "White"
+        },
+        "1": {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      },
+      "type": "WARNING"
     }
   ]
 },
