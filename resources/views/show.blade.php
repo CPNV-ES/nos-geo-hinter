@@ -30,6 +30,7 @@
                 <x-log :country="$country" scope='Langue'></x-log>
             </div>
         </div>
+        <x-hint.plate :$country/>
         <div class="">
             <div class="block max-w-2xl p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:text-gray-50 text-gray-900">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight">Panneaux</h5>

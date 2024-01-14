@@ -13,7 +13,9 @@ class CountryController extends Controller
     public function index()
     {
         $continents = Country::groupByContinents();
-        return view('flags', compact('continents'));
+        return view('flags', compact('continents'), [
+            'current' => 'country.index'
+        ]);
     }
 
     /**
