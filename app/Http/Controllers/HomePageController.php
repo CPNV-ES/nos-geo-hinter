@@ -22,10 +22,9 @@ class HomePageController extends Controller
         $bestCountryByFlag = $this->bestCountryByScope('Drapeau');
         $bestCountryByLanguage = $this->bestCountryByScope('Langue');
         $bestCountryBySign = $this->bestCountryByScope('Panneau');
-        $bestCountryByChar = $this->bestCountryByScope('Caractère');
+        $bestCountryByPlate = $this->bestCountryByScope('Plaque');
 
-
-        return view('index', compact('countries', 'languages', 'logCount', 'bestCountry', 'bestHint', 'bestCountryByFlag', 'bestCountryByLanguage', 'bestCountryBySign', 'bestCountryByChar'));
+        return view('index', compact('countries', 'languages', 'logCount', 'bestCountry', 'bestHint', 'bestCountryByFlag', 'bestCountryByLanguage', 'bestCountryBySign', 'bestCountryByPlate'));
     }
 
     public function bestCountry()
