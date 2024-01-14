@@ -4,7 +4,7 @@ use App\Http\Controllers\ComponentController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\HomePageController;
 use Illuminate\Support\Facades\Route;
-use App\Models\Country;
+use App\Http\Controllers\CountryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,10 +31,9 @@ Route::get('/global', function () {
 Route::get('/error', function () {
     return view('error');
 });
-Route::get("/country/{country}", function (Country $country) {
-    return $country;
-})->name("country.show");
-
+Route::resources([
+    'countries' => CountryController::class
+]);
 Route::get('/test/components/color', [ComponentController::class, 'color']);
 Route::get('/test/components/flag', [ComponentController::class, 'flag']);
 Route::get('/test/components/language', [ComponentController::class, 'language']);
