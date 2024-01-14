@@ -14,7 +14,9 @@ class HintController extends Controller
         $log->country_id = $request->country_id;
         $log->scope = $request->scope;
         $log->save();
-        return $log;
+        //return on the same page
+        return redirect()->back();
+
     }
     //count each log by scope and return the count
     public function stats()
