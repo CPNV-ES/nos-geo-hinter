@@ -1,4 +1,4 @@
-<div class="block max-w-2xl p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:text-gray-50 text-gray-900">
+<div class="block max-w-2xl h-fit p-4 min-w-max bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:text-gray-50 text-gray-900">
     <h5 class="mb-2 text-2xl font-bold tracking-tight">Drapeau</h5>
     <div class="pb-4">
         <img src="{{$country->flag->layout['image']}}" alt="Arrangement {{$country->flag->layout['description']}}">
