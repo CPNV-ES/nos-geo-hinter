@@ -133,7 +133,7 @@
     ],
     "layout": {
       "description": "Tricolor vertical",
-      "image": "/img/flags/layouts/tricolor-v.svg"
+      "image": "/img/flags/layouts/top-left-corner.svg"
     },
     "has_specials_shapes": false
   },
@@ -934,7 +934,7 @@
     ],
     "layout": {
       "description": "other",
-      "image": "/img/flags/layouts/mono-color.svg"
+      "image": "/img/flags/layouts/other.svg"
     },
     "has_specials_shapes": false
   },
