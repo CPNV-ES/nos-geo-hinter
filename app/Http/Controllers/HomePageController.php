@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Country;
+use App\Models\Language;
+use App\Models\Log;
 use Illuminate\Http\Request;
 
 class HomePageController extends Controller
@@ -13,12 +15,13 @@ class HomePageController extends Controller
     public function index()
     {
         $countries = Country::all()->count();
-        $languages = Country::all()->sum('languages_count');
-        $circulations = Country::all()->sum('circulations_count');
-        $flags = Country::all()->sum('flags_count');
-        $plates = Country::all()->sum('plates_count');
+        $languages = Language::all()->count();
+        $logCount = Log::all()->count();
+        $bestCountry = $this->bestCountry();
+        $bestHint = $this->bestHint();
 
-        return view('index', compact('countries', 'languages', 'circulations', 'flags', 'plates'));
+
+        return view('index', compact('countries', 'languages', 'logCount', 'bestCountry', 'bestHint'));
     }
 
     public function bestCountry()
