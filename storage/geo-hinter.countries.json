@@ -1,1969 +1,1971 @@
-[{
-  "_id": {
-    "$oid": "655f32258990200748e635b8"
-  },
-  "name": "Suisse",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+[
+    {
+        "_id": {
+            "$oid": "655f32258990200748e635b8"
         },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/ch.svg",
-    "colors": [
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      }
-    ],
-    "layout": {
-      "description": "Forme carée",
-      "image": "/img/flags/layouts/square.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "6593efd412a389be81548480"
-    },
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7330"
-    },
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff733a"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "name": "Suisse",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "flag": {
+            "image": "/img/flags/countries/ch.svg",
+            "colors": [
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                }
+            ],
+            "layout": {
+                "description": "Forme carée",
+                "image": "/img/flags/layouts/square.svg"
+            },
+            "has_specials_shapes": true
         },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9a8e4f9fd9ccf3ff733b"
-  },
-  "name": "État-Unis d'Amérique",
-  "continent": "Amérique du Nord",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Bleu",
-          "hex": "0000FF"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": true,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/us.svg",
-    "colors": [
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor vertical",
-      "image": "/img/flags/layouts/tricolor-v.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7326"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/octagon.svg",
-        "name": "Octagon"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "STOP"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "6593efd412a389be81548480"
+            },
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7330"
+            },
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff733a"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/rectangle.svg",
-        "name": "Rectangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9a8e4f9fd9ccf3ff733b"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "SPEED_LIMIT"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9a8e4f9fd9ccf3ff733c"
-  },
-  "name": "Canada",
-  "continent": "Amérique du Nord",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Rouge",
-          "hex": "FF0000"
+        "name": "État-Unis d'Amérique",
+        "continent": "Amérique du Nord",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Bleu",
+                        "hex": "0000FF"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": true,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
         },
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/ca.svg",
-    "colors": [
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      }
-    ],
-    "layout": {
-      "description": "Bicolor-v",
-      "image": "/img/flags/layouts/bicolor-v.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7326"
-    },
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7330"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/octagon.svg",
-        "name": "Octagon"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/us.svg",
+            "colors": [
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor vertical",
+                "image": "/img/flags/layouts/tricolor-v.svg"
+            },
+            "has_specials_shapes": false
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "STOP"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/rectangle.svg",
-        "name": "Rectangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "SPEED_LIMIT"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9a8e4f9fd9ccf3ff733d"
-  },
-  "name": "Brésil",
-  "continent": "Amérique du Sud",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Vert",
-          "hex": "008000"
-        },
-        {
-          "name": "Jaune",
-          "hex": "FFFF00"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/br.svg",
-    "colors": [
-      {
-        "name": "Vert",
-        "hex": "006600"
-      },
-      {
-        "name": "Jaune",
-        "hex": "FFCC00"
-      },
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      }
-    ],
-    "layout": {
-      "description": "Autre",
-      "image": "/img/flags/layouts/other.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7329"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7326"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/octagon.svg",
+                    "name": "Octagon"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "STOP"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/rectangle.svg",
+                    "name": "Rectangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "SPEED_LIMIT"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFF00",
-          "name": "Yellow"
+        "_id": {
+            "$oid": "659f9a8e4f9fd9ccf3ff733c"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9a8e4f9fd9ccf3ff733e"
-  },
-  "name": "Royaume-Unis",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "gauche",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Canada",
+        "continent": "Amérique du Nord",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Rouge",
+                        "hex": "FF0000"
+                    },
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/uk.svg",
-    "colors": [
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      }
-    ],
-    "layout": {
-      "description": "Autre",
-      "image": "/img/flags/layouts/other.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7326"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#0000FF",
-          "name": "Blue"
+        "flag": {
+            "image": "/img/flags/countries/ca.svg",
+            "colors": [
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                }
+            ],
+            "layout": {
+                "description": "Bicolor-v",
+                "image": "/img/flags/layouts/bicolor-v.svg"
+            },
+            "has_specials_shapes": true
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "MANDATORY"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9a8e4f9fd9ccf3ff733f"
-  },
-  "name": "France",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Bleu",
-          "hex": "0000FF"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/fr.svg",
-    "colors": [
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor vertical",
-      "image": "/img/flags/layouts/tricolor-v.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7330"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7326"
+            },
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7330"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/octagon.svg",
+                    "name": "Octagon"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "STOP"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/rectangle.svg",
+                    "name": "Rectangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "SPEED_LIMIT"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/diamond.svg",
-        "name": "Diamond"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFF00",
-          "name": "Yellow"
+        "_id": {
+            "$oid": "659f9a8e4f9fd9ccf3ff733d"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "PRIORITY"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9c324f9fd9ccf3ff7340"
-  },
-  "name": "Allemagne",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Brésil",
+        "continent": "Amérique du Sud",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Vert",
+                        "hex": "008000"
+                    },
+                    {
+                        "name": "Jaune",
+                        "hex": "FFFF00"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
         },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/de.svg",
-    "colors": [
-      {
-        "name": "Noir",
-        "hex": "000000"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Jaune",
-        "hex": "FFFF00"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor horizontal",
-      "image": "/img/flags/layouts/tricolor-h.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff732d"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/br.svg",
+            "colors": [
+                {
+                    "name": "Vert",
+                    "hex": "006600"
+                },
+                {
+                    "name": "Jaune",
+                    "hex": "FFCC00"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                }
+            ],
+            "layout": {
+                "description": "Autre",
+                "image": "/img/flags/layouts/other.svg"
+            },
+            "has_specials_shapes": true
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9c324f9fd9ccf3ff7341"
-  },
-  "name": "Italie",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/it.svg",
-    "colors": [
-      {
-        "name": "Vert",
-        "hex": "008000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor vertical",
-      "image": "/img/flags/layouts/tricolor-v.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff733a"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7329"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFF00",
+                        "name": "Yellow"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9a8e4f9fd9ccf3ff733e"
         },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9c324f9fd9ccf3ff7342"
-  },
-  "name": "Espagne",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Jaune",
-          "hex": "FFFF00"
+        "name": "Royaume-Unis",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "gauche",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Rouge",
-          "hex": "FF0000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/es.svg",
-    "colors": [
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Jaune",
-        "hex": "FFFF00"
-      }
-    ],
-    "layout": {
-      "description": "Bicolor-h",
-      "image": "/img/flags/layouts/bicolor-h.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7325"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/uk.svg",
+            "colors": [
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                }
+            ],
+            "layout": {
+                "description": "Autre",
+                "image": "/img/flags/layouts/other.svg"
+            },
+            "has_specials_shapes": false
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9c324f9fd9ccf3ff7343"
-  },
-  "name": "Australie",
-  "continent": "Oceanie",
-  "circulation": {
-    "direction": "gauche",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Vert",
-          "hex": "008000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/au.svg",
-    "colors": [
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Autre",
-      "image": "/img/flags/layouts/other.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7326"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7326"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": {
+                    "0": {
+                        "hex": "0000FF",
+                        "name": "Blue"
+                    },
+                    "1": {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    }
+                },
+                "type": "MANDATORY"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/diamond.svg",
-        "name": "Diamond"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFF00",
-          "name": "Yellow"
+        "_id": {
+            "$oid": "659f9a8e4f9fd9ccf3ff733f"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9c324f9fd9ccf3ff7344"
-  },
-  "name": "Japon",
-  "continent": "Asie",
-  "circulation": {
-    "direction": "gauche",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "France",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Bleu",
+                        "hex": "0000FF"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Rouge",
-          "hex": "FF0000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/jp.svg",
-    "colors": [
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Mono-color",
-      "image": "/img/flags/layouts/mono-color.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff732b"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/fr.svg",
+            "colors": [
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor vertical",
+                "image": "/img/flags/layouts/tricolor-v.svg"
+            },
+            "has_specials_shapes": false
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9db24f9fd9ccf3ff7345"
-  },
-  "name": "Corée du sud",
-  "continent": "Asie",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/kr.svg",
-    "colors": [
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Noir",
-        "hex": "000000"
-      },
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Autre",
-      "image": "/img/flags/layouts/other.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff732f"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7330"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/diamond.svg",
+                    "name": "Diamond"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFF00",
+                        "name": "Yellow"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "PRIORITY"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9c324f9fd9ccf3ff7340"
         },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9db24f9fd9ccf3ff7346"
-  },
-  "name": "Inde",
-  "continent": "Asie",
-  "circulation": {
-    "direction": "gauche",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Allemagne",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/in.svg",
-    "colors": [
-      {
-        "name": "Saffron",
-        "hex": "FF9933"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Vert",
-        "hex": "138808"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor horizontal",
-      "image": "/img/flags/layouts/tricolor-h.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7327"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/de.svg",
+            "colors": [
+                {
+                    "name": "Noir",
+                    "hex": "000000"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Jaune",
+                    "hex": "FFFF00"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor horizontal",
+                "image": "/img/flags/layouts/tricolor-h.svg"
+            },
+            "has_specials_shapes": false
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9db24f9fd9ccf3ff7347"
-  },
-  "name": "Russie",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Bleu",
-          "hex": "0000FF"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/ru.svg",
-    "colors": [
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor horizontal",
-      "image": "/img/flags/layouts/tricolor-h.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff732a"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff732d"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9c324f9fd9ccf3ff7341"
         },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9db24f9fd9ccf3ff7348"
-  },
-  "name": "Mexique",
-  "continent": "Amérique du Nord",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Italie",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Vert",
-          "hex": "008000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": false
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/mx.svg",
-    "colors": [
-      {
-        "name": "Vert",
-        "hex": "008000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor vertical",
-      "image": "/img/flags/layouts/tricolor-v.svg"
-    },
-    "has_specials_shapes": true
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659ee72d4f9fd9ccf3ff7325"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/it.svg",
+            "colors": [
+                {
+                    "name": "Vert",
+                    "hex": "008000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor vertical",
+                "image": "/img/flags/layouts/tricolor-v.svg"
+            },
+            "has_specials_shapes": false
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659f9db24f9fd9ccf3ff7349"
-  },
-  "name": "Afrique du sud",
-  "continent": "Afrique",
-  "circulation": {
-    "direction": "gauche",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/za.svg",
-    "colors": [
-      {
-        "name": "Noir",
-        "hex": "000000"
-      },
-      {
-        "name": "Gold",
-        "hex": "FFD700"
-      },
-      {
-        "name": "Vert",
-        "hex": "008000"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      }
-    ],
-    "layout": {
-      "description": "Autre",
-      "image": "/img/flags/layouts/other.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff733a"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/diamond.svg",
-        "name": "Diamond"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFF00",
-          "name": "Yellow"
+        "_id": {
+            "$oid": "659f9c324f9fd9ccf3ff7342"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659fba674f9fd9ccf3ff7358"
-  },
-  "name": "Pologne",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Espagne",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Jaune",
+                        "hex": "FFFF00"
+                    },
+                    {
+                        "name": "Rouge",
+                        "hex": "FF0000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Rouge",
-          "hex": "FF0000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/pl.svg",
-    "colors": [
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      },
-      {
-        "name": "Rouge",
-        "hex": "FF0000"
-      }
-    ],
-    "layout": {
-      "description": "Bicolor-h",
-      "image": "/img/flags/layouts/bicolor-h.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659fb7fc4f9fd9ccf3ff734b"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/es.svg",
+            "colors": [
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Jaune",
+                    "hex": "FFFF00"
+                }
+            ],
+            "layout": {
+                "description": "Bicolor-h",
+                "image": "/img/flags/layouts/bicolor-h.svg"
+            },
+            "has_specials_shapes": true
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#FF0000",
-          "name": "Red"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659fba674f9fd9ccf3ff7359"
-  },
-  "name": "Suède",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Bleu",
-          "hex": "0000FF"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/se.svg",
-    "colors": [
-      {
-        "name": "Bleu",
-        "hex": "0000FF"
-      },
-      {
-        "name": "Jaune",
-        "hex": "FFFF00"
-      }
-    ],
-    "layout": {
-      "description": "Croix",
-      "image": "/img/flags/layouts/cross.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659fb8604f9fd9ccf3ff734f"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7325"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9c324f9fd9ccf3ff7343"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659fbaa74f9fd9ccf3ff735a"
-  },
-  "name": "Norvège",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Australie",
+        "continent": "Oceanie",
+        "circulation": {
+            "direction": "gauche",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Vert",
+                        "hex": "008000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
         },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/no.svg",
-    "colors": [
-      {
-        "name": "Rouge",
-        "hex": "BA0C2F"
-      },
-      {
-        "name": "Bleu",
-        "hex": "00205B"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      }
-    ],
-    "layout": {
-      "description": "Croix",
-      "image": "/img/flags/layouts/cross.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659fb8604f9fd9ccf3ff7353"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/au.svg",
+            "colors": [
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Autre",
+                "image": "/img/flags/layouts/other.svg"
+            },
+            "has_specials_shapes": true
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659fbaa74f9fd9ccf3ff735b"
-  },
-  "name": "Lituanie",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Bleu",
-          "hex": "0033A0"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/lt.svg",
-    "colors": [
-      {
-        "name": "Jaune",
-        "hex": "FDB913"
-      },
-      {
-        "name": "Vert",
-        "hex": "006A44"
-      },
-      {
-        "name": "Rouge",
-        "hex": "C1272D"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor horizontal",
-      "image": "/img/flags/layouts/tricolor-h.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7326"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/diamond.svg",
+                    "name": "Diamond"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFF00",
+                        "name": "Yellow"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9c324f9fd9ccf3ff7344"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659fbca74f9fd9ccf3ff735c"
-  },
-  "name": "Finlande",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
+        "name": "Japon",
+        "continent": "Asie",
+        "circulation": {
+            "direction": "gauche",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Rouge",
+                        "hex": "FF0000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
         },
-        {
-          "name": "Bleu",
-          "hex": "0000FF"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/fi.svg",
-    "colors": [
-      {
-        "name": "Bleu",
-        "hex": "002F6C"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      }
-    ],
-    "layout": {
-      "description": "Croix",
-      "image": "/img/flags/layouts/cross.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659fb7fc4f9fd9ccf3ff734c"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
+        "flag": {
+            "image": "/img/flags/countries/jp.svg",
+            "colors": [
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Mono-color",
+                "image": "/img/flags/layouts/mono-color.svg"
+            },
+            "has_specials_shapes": false
         },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
-    },
-    {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "659fbca74f9fd9ccf3ff735d"
-  },
-  "name": "Estonie",
-  "continent": "Europe",
-  "circulation": {
-    "direction": "droite",
-    "plate": {
-      "colors": [
-        {
-          "name": "Blanc",
-          "hex": "FFFFFF"
-        },
-        {
-          "name": "Noir",
-          "hex": "000000"
-        }
-      ],
-      "specifications": {
-        "CAN_HAVE_NO_FRONT_PLATE": false,
-        "HAS_SAME_FRONT_BACK": true
-      }
-    }
-  },
-  "flag": {
-    "image": "/img/flags/countries/ee.svg",
-    "colors": [
-      {
-        "name": "Bleu",
-        "hex": "0072CE"
-      },
-      {
-        "name": "Noir",
-        "hex": "000000"
-      },
-      {
-        "name": "Blanc",
-        "hex": "FFFFFF"
-      }
-    ],
-    "layout": {
-      "description": "Tricolor horizontal",
-      "image": "/img/flags/layouts/tricolor-h.svg"
-    },
-    "has_specials_shapes": false
-  },
-  "street_viewed": true,
-  "languages_ids": [
-    {
-      "$oid": "659fb7fc4f9fd9ccf3ff734e"
-    }
-  ],
-  "signs": [
-    {
-      "shape": {
-        "image": "/img/signs/shape/circle.svg",
-        "name": "Circle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FF0000",
-          "name": "Red"
-        },
-        "1": {
-          "hex": "#FFFFFF",
-          "name": "White"
-        }
-      },
-      "type": "PROHIBITION"
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff732b"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     },
     {
-      "shape": {
-        "image": "/img/signs/shape/triangle.svg",
-        "name": "Triangle"
-      },
-      "colors": {
-        "0": {
-          "hex": "#FFFFFF",
-          "name": "White"
+        "_id": {
+            "$oid": "659f9db24f9fd9ccf3ff7345"
         },
-        "1": {
-          "hex": "#000000",
-          "name": "Black"
-        }
-      },
-      "type": "WARNING"
+        "name": "Corée du sud",
+        "continent": "Asie",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/kr.svg",
+            "colors": [
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Noir",
+                    "hex": "000000"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Autre",
+                "image": "/img/flags/layouts/other.svg"
+            },
+            "has_specials_shapes": true
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff732f"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659f9db24f9fd9ccf3ff7346"
+        },
+        "name": "Inde",
+        "continent": "Asie",
+        "circulation": {
+            "direction": "gauche",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/in.svg",
+            "colors": [
+                {
+                    "name": "Saffron",
+                    "hex": "FF9933"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Vert",
+                    "hex": "138808"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor horizontal",
+                "image": "/img/flags/layouts/tricolor-h.svg"
+            },
+            "has_specials_shapes": true
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7327"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659f9db24f9fd9ccf3ff7347"
+        },
+        "name": "Russie",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Bleu",
+                        "hex": "0000FF"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/ru.svg",
+            "colors": [
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor horizontal",
+                "image": "/img/flags/layouts/tricolor-h.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff732a"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659f9db24f9fd9ccf3ff7348"
+        },
+        "name": "Mexique",
+        "continent": "Amérique du Nord",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Vert",
+                        "hex": "008000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": false
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/mx.svg",
+            "colors": [
+                {
+                    "name": "Vert",
+                    "hex": "008000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor vertical",
+                "image": "/img/flags/layouts/tricolor-v.svg"
+            },
+            "has_specials_shapes": true
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659ee72d4f9fd9ccf3ff7325"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659f9db24f9fd9ccf3ff7349"
+        },
+        "name": "Afrique du sud",
+        "continent": "Afrique",
+        "circulation": {
+            "direction": "gauche",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/za.svg",
+            "colors": [
+                {
+                    "name": "Noir",
+                    "hex": "000000"
+                },
+                {
+                    "name": "Gold",
+                    "hex": "FFD700"
+                },
+                {
+                    "name": "Vert",
+                    "hex": "008000"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                }
+            ],
+            "layout": {
+                "description": "Autre",
+                "image": "/img/flags/layouts/other.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/diamond.svg",
+                    "name": "Diamond"
+                },
+                "colors": {
+                    "0": {
+                        "hex": "FFFF00",
+                        "name": "Yellow"
+                    },
+                    "1": {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                },
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659fba674f9fd9ccf3ff7358"
+        },
+        "name": "Pologne",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Rouge",
+                        "hex": "FF0000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/pl.svg",
+            "colors": [
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "FF0000"
+                }
+            ],
+            "layout": {
+                "description": "Bicolor-h",
+                "image": "/img/flags/layouts/bicolor-h.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659fb7fc4f9fd9ccf3ff734b"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659fba674f9fd9ccf3ff7359"
+        },
+        "name": "Suède",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Bleu",
+                        "hex": "0000FF"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/se.svg",
+            "colors": [
+                {
+                    "name": "Bleu",
+                    "hex": "0000FF"
+                },
+                {
+                    "name": "Jaune",
+                    "hex": "FFFF00"
+                }
+            ],
+            "layout": {
+                "description": "Croix",
+                "image": "/img/flags/layouts/cross.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659fb8604f9fd9ccf3ff734f"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659fbaa74f9fd9ccf3ff735a"
+        },
+        "name": "Norvège",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/no.svg",
+            "colors": [
+                {
+                    "name": "Rouge",
+                    "hex": "BA0C2F"
+                },
+                {
+                    "name": "Bleu",
+                    "hex": "00205B"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                }
+            ],
+            "layout": {
+                "description": "Croix",
+                "image": "/img/flags/layouts/cross.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659fb8604f9fd9ccf3ff7353"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659fbaa74f9fd9ccf3ff735b"
+        },
+        "name": "Lituanie",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Bleu",
+                        "hex": "0033A0"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/lt.svg",
+            "colors": [
+                {
+                    "name": "Jaune",
+                    "hex": "FDB913"
+                },
+                {
+                    "name": "Vert",
+                    "hex": "006A44"
+                },
+                {
+                    "name": "Rouge",
+                    "hex": "C1272D"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor horizontal",
+                "image": "/img/flags/layouts/tricolor-h.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659fbca74f9fd9ccf3ff735c"
+        },
+        "name": "Finlande",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Bleu",
+                        "hex": "0000FF"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/fi.svg",
+            "colors": [
+                {
+                    "name": "Bleu",
+                    "hex": "002F6C"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                }
+            ],
+            "layout": {
+                "description": "Croix",
+                "image": "/img/flags/layouts/cross.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659fb7fc4f9fd9ccf3ff734c"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "659fbca74f9fd9ccf3ff735d"
+        },
+        "name": "Estonie",
+        "continent": "Europe",
+        "circulation": {
+            "direction": "droite",
+            "plate": {
+                "colors": [
+                    {
+                        "name": "Blanc",
+                        "hex": "FFFFFF"
+                    },
+                    {
+                        "name": "Noir",
+                        "hex": "000000"
+                    }
+                ],
+                "specifications": {
+                    "CAN_HAVE_NO_FRONT_PLATE": false,
+                    "HAS_SAME_FRONT_BACK": true
+                }
+            }
+        },
+        "flag": {
+            "image": "/img/flags/countries/ee.svg",
+            "colors": [
+                {
+                    "name": "Bleu",
+                    "hex": "0072CE"
+                },
+                {
+                    "name": "Noir",
+                    "hex": "000000"
+                },
+                {
+                    "name": "Blanc",
+                    "hex": "FFFFFF"
+                }
+            ],
+            "layout": {
+                "description": "Tricolor horizontal",
+                "image": "/img/flags/layouts/tricolor-h.svg"
+            },
+            "has_specials_shapes": false
+        },
+        "street_viewed": true,
+        "languages_ids": [
+            {
+                "$oid": "659fb7fc4f9fd9ccf3ff734e"
+            }
+        ],
+        "signs": [
+            {
+                "shape": {
+                    "image": "/img/signs/shape/circle.svg",
+                    "name": "Circle"
+                },
+                "colors": [
+                    {
+                        "hex": "FF0000",
+                        "name": "Rouge"
+                    },
+                    {
+                        "hex": "FFFFFF",
+                        "name": "Blanc"
+                    }
+                ],
+                "type": "PROHIBITION"
+            },
+            {
+                "shape": {
+                    "image": "/img/signs/shape/triangle.svg",
+                    "name": "Triangle"
+                },
+                "colors": [
+                    {
+                        "hex": "FFFFFF",
+                        "name": "White"
+                    },
+                    {
+                        "hex": "000000",
+                        "name": "Black"
+                    }
+                ],
+                "type": "WARNING"
+            }
+        ]
     }
-  ]
-}]
+]

@@ -38,7 +38,7 @@ class ComponentController extends Controller
 
     public function sign(): View
     {
-        return view('test.components.sign', ['sign' => $this->country->circulation->signs[0]]);
+        return view('test.components.sign', ['sign' => $this->country->signs[0]]);
     }
 
     public function language(): View
